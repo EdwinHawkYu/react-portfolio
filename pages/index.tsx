@@ -60,7 +60,7 @@ export default function Home() {
           </div>
           <div>
             <div className='text-center shadow-lg p-10 rounded-xl my-10'>
-              <Image className='mx-auto' src={design} width={100} height={100}/>
+              <Image className='mx-auto'alt='image' src={design} width={100} height={100}/>
               <h3 className='text-lg font-medium pt-8 pb-2'>Skills and Tools</h3>
               <p className='py-2'>
                 Created different applications to solve day to day activities.
@@ -71,7 +71,7 @@ export default function Home() {
               <p className='text-gray-800 py-1'>Express.js</p>
             </div>
             <div className='text-center shadow-lg p-10 rounded-xl my-10'>
-              <Image className='mx-auto' src={design2} width={100} height={100}/>
+              <Image className='mx-auto' alt='image2' src={design2} width={100} height={100}/>
               <h3 className='text-lg font-medium pt-8 pb-2'>Projects</h3>
               <p className='py-2'>
                 Created different applications to solve day to day activities.
@@ -82,7 +82,7 @@ export default function Home() {
               <p className='text-gray-800 py-1'>Express.js</p>
             </div>
             <div className='text-center shadow-lg p-10 rounded-xl my-10'>
-              <Image className='mx-auto' src={aquatics} width={100} height={100}/>
+              <Image className='mx-auto'alt='image3' src={aquatics} width={100} height={100}/>
               <h3 className='text-lg font-medium pt-8 pb-2'>Aquatics</h3>
               <p className='py-2'>
                 Created different applications to solve day to day activities.
