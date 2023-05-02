@@ -45,9 +45,6 @@ export default function Home() {
               <AiFillTwitterCircle/>
               <AiFillYoutube/>
             </div>
-            <div className=''>
-              <Image/>
-            </div>
           </div>
         </section>
       
