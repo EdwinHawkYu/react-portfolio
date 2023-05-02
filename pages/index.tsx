@@ -1,8 +1,10 @@
 import Head from 'next/head'
-import {BsFillMoonStarsFill} from 'react-icons/bs'
+import {BsLinkedin} from 'react-icons/bs'
 import {AiFillTwitterCircle, AiFillLinkedin, AiFillYoutube} from 'react-icons/ai'
 import Image from "next/image"
-import deved from '../public/'
+import design from '../public/design.png'
+import design2 from '../public/design_2.png'
+import aquatics from '../public/aquatics.png'
 import { Inter } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -23,7 +25,9 @@ export default function Home() {
             <h1 className='text-xl font-burtons'>Hello</h1>
             <ul className='flex items-center'>
               <li>
-                <BsFillMoonStarsFill className='cursor-pointer'/>
+                <a className='text-3xl py-2 ml-4 px-4 text-gray-600' href="https://www.linkedin.com/in/edwin-hawk-yu/" target='_blank'>
+                  <BsLinkedin/>
+                </a>
               </li>
               <li>
                 <a className='bg-gradient-to-r from-cyan-500 to-teal-400 text-white px-4 py-2 rounded-md ml-4' href='#'>Resume</a>
@@ -44,6 +48,58 @@ export default function Home() {
             <div className=''>
               <Image/>
             </div>
+          </div>
+        </section>
+      
+        <section>
+          <div className='text-center p-10'>
+            <h3 className='text-3xl py-1'>
+              Experience
+            </h3>
+            <p className='text-md py-2 leading-8 text-gray-800'>
+              Mechanical Engineering graduate in 2021 with a focus in Mechatronics.
+              I am a full-stack developer with familiarity using MERN stack and Django.
+            </p>
+          </div>
+          <div>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10'>
+              <Image className='mx-auto' src={design} width={100} height={100}/>
+              <h3 className='text-lg font-medium pt-8 pb-2'>Skills and Tools</h3>
+              <p className='py-2'>
+                Created different applications to solve day to day activities.
+              </p>
+              <h4 className='py-4 text-teal-600'>Stack Tools Used</h4>
+              <p className='text-gray-800 py-1'>React.js</p>
+              <p className='text-gray-800 py-1'>Node.js</p>
+              <p className='text-gray-800 py-1'>Express.js</p>
+            </div>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10'>
+              <Image className='mx-auto' src={design2} width={100} height={100}/>
+              <h3 className='text-lg font-medium pt-8 pb-2'>Projects</h3>
+              <p className='py-2'>
+                Created different applications to solve day to day activities.
+              </p>
+              <h4 className='py-4 text-teal-600'>Stack Tools Used</h4>
+              <p className='text-gray-800 py-1'>React.js</p>
+              <p className='text-gray-800 py-1'>Node.js</p>
+              <p className='text-gray-800 py-1'>Express.js</p>
+            </div>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10'>
+              <Image className='mx-auto' src={aquatics} width={100} height={100}/>
+              <h3 className='text-lg font-medium pt-8 pb-2'>Aquatics</h3>
+              <p className='py-2'>
+                Created different applications to solve day to day activities.
+              </p>
+              <h4 className='py-4 text-teal-600'>Stack Tools Used</h4>
+              <p className='text-gray-800 py-1'>React.js</p>
+              <p className='text-gray-800 py-1'>Node.js</p>
+              <p className='text-gray-800 py-1'>Express.js</p>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div className='text-center m-10'>
+            <h3 className='text-3xl py-1'>Portfolio</h3>
           </div>
         </section>
       </main>
